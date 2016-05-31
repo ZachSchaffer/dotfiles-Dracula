@@ -1,0 +1,23 @@
+# Conky for external bar
+# out simple text to console
+
+background no
+update_interval 2
+total_run_times 0
+short_units yes
+uppercase no
+out_to_console yes
+out_to_x no
+if_up_strictness address
+format_human_readable true
+
+TEXT
+SYS\
+${time %a %d %b %I:%M} \
+${cpu} \
+${mem} \
+${fs_used_perc /} \
+${fs_used_perc /home} \
+${if_up wlp3s0}${downspeedf wlp3s0} ${upspeedf wlp3s0} \
+${else}down down${endif} \
+${gw_ip} ${battery_percent}

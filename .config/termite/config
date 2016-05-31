@@ -1,0 +1,45 @@
+[options]
+font= Inconsolata for Powerline Regular 12
+clickable_url = true
+padding = 0
+
+
+[colors]
+
+# special
+foreground      = #f8f8f2
+foreground_bold = #f8f8f2
+cursor          = #f8f8f2
+background      = #404254
+
+# black
+color0  = #44475a
+color8  = #44475a
+
+# red
+color1  = #FF3D7F
+color9  = #FF3D7F
+
+# green
+color2  = #50fa7d
+color10 = #50fa7d
+
+# yellow
+color3  = #f1fa8c
+color11 = #f1fa8c
+
+# blue
+color4  = #8be9fd
+color12 = #FF7AC6
+
+# magenta
+color5  = #FF7AC6
+color13 = #FF7AC6
+
+# cyan
+color6  = #00FFF0
+color14 = #00FFF0
+
+# white
+color7  = #707880
+color15 = #c5c8c6
