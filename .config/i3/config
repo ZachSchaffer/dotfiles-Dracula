@@ -28,7 +28,7 @@ set $default            #18FFD2
 
 # border colors:        border: bg:     text:   indicator:
 #client.focused         #493757 #453452 #FFFFFF #523445
-client.focused          #f1fa8c #394042 #FFFFFF #009688
+client.focused          #404254 #404254 #FFFFFF #404254
 client.focused_inactive #4F4E43 #49483E #BFBFBF #49483E
 client.unfocused        #000000 #000000 #888888 #000000
 client.urgent           #662B32 #58252B #F4BF75 #58252B
@@ -69,7 +69,7 @@ assign [class="jetbrains-idea-ce"] $workswall3
 #.........
 
 #exec_always feh --bg-scale feh --bg-scale /home/crow/Pictures/i3/best.png
-exec_always feh --bg-scale feh --bg-scale ~/Pictures/i3/goat.png
+exec_always feh --bg-scale feh --bg-scale ~/Pictures/i3/myarch.png
 exec_always compton --config /home/crow//.config/compton/config
 exec_always xset fp+ $HOME/.fonts/misc
 exec_always xset fp+ $HOME/.fonts/ohsnap
@@ -101,7 +101,7 @@ bindsym XF86AudioPrev exec playerctl previous
 #Key-Bindings
 #..........
 
-bindsym $mod+d exec rofi -show run -lines 3 -eh 2 -width 50 -padding 50 -opacity "100" -bw 2 -bc "#f1fa8c" -bg "#44475a" -fg "#8BE9FD" -hlbg "#44475a" -hlfg "#FF7AC6" -font "Roboto 16"
+bindsym $mod+d exec rofi -show run
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
