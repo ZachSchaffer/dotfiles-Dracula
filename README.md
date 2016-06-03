@@ -1,4 +1,4 @@
-# dotfilles-Dracula
+# dotfiles-Dracula
 
 A config for i3, implementing my own edit of electro7's Lemonbar script for i3 and the Dracula color scheme.
 
